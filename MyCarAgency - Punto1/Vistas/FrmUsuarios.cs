@@ -66,11 +66,16 @@ namespace Vistas
                 txtRole.Text);
             listarUsuarios();
         }
-
+        
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             usuarios.EliminarUsuario(int.Parse(txtId.Text));
             listarUsuarios();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

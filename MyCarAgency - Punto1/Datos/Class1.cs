@@ -8,5 +8,8 @@ namespace Datos
 {
     public class Class1
     {
+        public void login(){ 
+        
+        }
     }
 }

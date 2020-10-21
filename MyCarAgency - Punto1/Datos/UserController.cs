@@ -51,5 +51,9 @@ namespace Datos
                 return db.Users.ToList();
             }
         }
+        public void mensaje()
+        { 
+           
+        }
     }
 }
